@@ -21,7 +21,7 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-version=0.004
+version=0.005
 
 ; General Options and Tweaks
 #NoEnv ; some performance options
