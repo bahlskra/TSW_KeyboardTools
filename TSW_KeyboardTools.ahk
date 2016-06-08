@@ -53,10 +53,9 @@ if START_TSW
 	$2::
 	$3::
 	$4::
-	$Q::
-	$E::
-	$R::
-	XButton1::
+	$q::
+	$e::
+	$r::
 		PRESSED_KEY := % SubStr(A_ThisHotkey, 2, 1)
 		While GetKeyState(PRESSED_KEY,"p") {
 			Send, {%PRESSED_KEY%}
