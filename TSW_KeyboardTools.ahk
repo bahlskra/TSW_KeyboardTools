@@ -47,7 +47,6 @@ GoSub, CreateTrayMenu
 if START_TSW
 	startup()
 
-		}
 	Return
 	; repeat keys 1-7
 	$1::
