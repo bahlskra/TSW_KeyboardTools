@@ -48,7 +48,7 @@ if START_TSW
 	startup()
 
 	Return
-	; repeat keys 1-7
+	; repeat keys 1-Xbutton1
 	$1::
 	$2::
 	$3::
@@ -56,7 +56,7 @@ if START_TSW
 	$Q::
 	$E::
 	$R::
-	$XButton1::
+	XButton1::
 		PRESSED_KEY := % SubStr(A_ThisHotkey, 2, 1)
 		While GetKeyState(PRESSED_KEY,"p") {
 			Send, {%PRESSED_KEY%}
