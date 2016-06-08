@@ -21,7 +21,7 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-version=0.005
+version=0.005.1
 
 ; General Options and Tweaks
 #NoEnv ; some performance options
@@ -68,9 +68,10 @@ if START_TSW
 	$2::
 	$3::
 	$4::
-	$5::
-	$6::
-	$7::
+	$Q::
+	$E::
+	$R::
+	$Mouse4::
 		PRESSED_KEY := % SubStr(A_ThisHotkey, 2, 1)
 		While GetKeyState(PRESSED_KEY,"p") {
 			Send, {%PRESSED_KEY%}
