@@ -47,20 +47,6 @@ GoSub, CreateTrayMenu
 if START_TSW
 	startup()
 
-
-
-#IfWinActive The Secret World
-
-	$XButton2::
-		While GetKeyState("XButton2","p") {
-			Send, {%THUMB_BUTTON_UP%}
-			Sleep, SLEEP_TIMER
-		}
-	Return
-	$XButton1::
-		While GetKeyState("XButton1","p") {
-			Send, {%THUMB_BUTTON_DOWN%}
-			Sleep, SLEEP_TIMER
 		}
 	Return
 	; repeat keys 1-7
